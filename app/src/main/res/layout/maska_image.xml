@@ -9,8 +9,8 @@
         <androidx.cardview.widget.CardView
 
             android:id="@+id/Horiz_fon"
-            android:layout_width="176dp"
-            android:layout_height="132dp"
+            android:layout_width="153dp"
+            android:layout_height="115dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="15dp"
@@ -26,8 +26,8 @@
 
             <ImageView
                 android:id="@+id/ppz"
-                android:layout_width="176dp"
-                android:layout_height="132dp"
+                android:layout_width="153dp"
+                android:layout_height="115dp"
                 app:srcCompat="@drawable/plus"
                 android:scaleType="centerCrop"/>
 
@@ -40,8 +40,8 @@
                 android:layout_alignTop="@+id/ppz"
                 android:layout_alignEnd="@+id/ppz"
                 android:layout_alignBottom="@+id/ppz"
-                android:layout_marginStart="94dp"
-                android:layout_marginTop="102dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="85dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="6dp"
                 android:fontFamily="@font/alegreya"
