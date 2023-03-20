@@ -2,13 +2,6 @@ package com.example.layout;
 
 import android.content.Context;
 import android.view.GestureDetector;
-import android.view.GestureDetector.SimpleOnGestureListener;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnTouchListener;
-
-import android.content.Context;
-import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 class OnSwipeTouchListener implements View.OnTouchListener {
@@ -73,6 +66,7 @@ class OnSwipeTouchListener implements View.OnTouchListener {
         }
     }
     public void onSwipeRight() {
+
     }
     public void onSwipeLeft() {
     }
