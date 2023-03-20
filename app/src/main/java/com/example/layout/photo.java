@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -24,6 +25,9 @@ public class photo extends AppCompatActivity  {
         setContentView(R.layout.activity_photo);
         layout = findViewById(R.id.relativeLayout);
         imageView = findViewById(R.id.photo);
+
+
+
         layout.setOnTouchListener(new OnSwipeTouchListener(photo.this) {
             @Override
             public void onSwipeLeft() {
@@ -52,7 +56,6 @@ public class photo extends AppCompatActivity  {
         }
 
     }
-
 
 
 
